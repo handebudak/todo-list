@@ -1,0 +1,108 @@
+.header__title {
+  text-align: center;
+  margin: 20px auto;
+  color: rgb(202, 52, 52);
+}
+
+.add-todo {
+  margin: 30px 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.add-todo__input {
+  padding: 10px;
+  width: 500px;
+  border: 1px solid rgb(139, 136, 136);
+  border-radius: 8px;
+  box-shadow: 1px 1px rgb(216, 204, 204);
+}
+
+.add-todo__btn {
+  border: 1px solid rgb(139, 136, 136);
+  border-radius: 8px;
+  box-shadow: 1px 1px rgb(216, 204, 204);
+  background-color: rgb(112, 106, 106);
+  padding: 0px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.add-todo__btn:hover {
+  background-color: rgb(87, 82, 82);
+  border-color: rgb(159, 42, 42);
+}
+
+.todo-table {
+  margin: 20px auto;
+  width: 1000px;
+}
+
+.todo-table tr th {
+  padding: 10px 20px;
+  border: 1px solid gray;
+  background-color: gray;
+}
+
+.todo-table tr td {
+  padding: 10px 20px;
+  border: 1px solid gray;
+}
+
+.todo-table__td__delete-btn {
+  border: 1px solid rgb(139, 136, 136);
+  border-radius: 8px;
+  box-shadow: 1px 1px rgb(216, 204, 204);
+  background-color: rgb(202, 52, 52);
+  padding: 5px 20px;
+  color: white;
+}
+
+.todo-table__td__delete-btn:hover {
+  background-color: rgb(159, 42, 42);
+  cursor: pointer;
+}
+
+.todo-table__td__save-btn:hover {
+  background-color: rgb(56, 105, 56);
+  cursor: pointer;
+}
+
+.todo-table__td__save-btn {
+  border: 1px solid rgb(139, 136, 136);
+  border-radius: 8px;
+  box-shadow: 1px 1px rgb(216, 204, 204);
+  background-color: rgb(91, 171, 91);
+  padding: 5px 20px;
+  color: white;
+}
+
+.todo-table th:nth-child(1) {
+  width: 10px;
+}
+
+.todo-table th:nth-child(2) {
+  width: 300px;
+  text-align: center;
+}
+
+.todo-table th:nth-child(3) {
+  width: 100px;
+  text-align: center;
+}
+
+.todo-table th:nth-child(4) {
+  width: 150px;
+  text-align: center;
+}
+
+.todo-table td {
+  text-align: center;
+}
+
+.todo-table td:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
