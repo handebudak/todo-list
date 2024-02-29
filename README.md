@@ -2,6 +2,8 @@
 
 Bu uygulama, basit bir görev listesi tutma işlevi sağlar. Kullanıcılar, yapılacak görevleri ekleyebilir, işaretleyebilir veya silebilirler.
 
+![screenshot](./screenshot.png)
+
 ## Nasıl Kullanılır
 
 1. **Görev Ekleme**: Sayfanın üst kısmındaki giriş kutusuna bir görev yazın ve "Save" (Kaydet) düğmesine basın. Göreviniz, listenin altına eklenir.
